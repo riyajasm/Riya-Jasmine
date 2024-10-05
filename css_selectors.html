@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+         /*element selector*/ 
+         div{
+            background-color: rgb(158, 132, 177);
+         }
+         /*class selector*/
+         .classs{
+            background-color: rgb(18, 207, 65);
+         }
+         /* id selector*/
+         #unique{
+            background-color:rgb(218, 97, 117);
+         }
+         /*child selector*/
+         div > p{
+            background-color: blue;
+         }
+         /*descent selector*/
+         div p{
+            background-color: rgb(27, 220, 20);
+         }
+         /*universal selector*/
+         *{
+            margin:0;
+            /* padding:7px; */
+         }
+         
+         
+         /* pseudo code */
+         a:link{
+            color:green;
+
+         }
+         a:active{
+
+            color:aqua;
+         }
+         a:visited{
+            color: rgb(214, 18, 133);
+         }
+         a:hover{
+            background-color: darkorange;
+         }
+          p:first-child{
+            color: red;
+            background-color: aqua;
+         }
+
+
+    </style>
+ 
+
+</head>
+<body>
+    <main class="one">
+        <p>1st one p</p>
+        <p>2nd one p</p>
+    </main>
+    <div>
+        i am a div
+        <article>
+            <p>am a p of div</p>
+        </article>
+       
+
+    </div>
+    
+    <div class="classs">
+        i am a div
+       
+
+    </div>
+    <div id="unique">
+        i am a div
+      
+
+    </div>
+    <a href="http://www.google.com">google</a>
+<pre>
+
+
+</pre>
+    <a href="http://www.facebook.com">facebook</a>
+
+</body>
+</html>
