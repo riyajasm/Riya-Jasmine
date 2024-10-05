@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            background-color: aqua;
+        }
+        .b1{
+            color: rgb(255, 0, 179);
+            padding: 10px;
+            margin: 20px;
+            border: 5px solid rgb(235, 16, 63);
+            height: 200px;
+        }
+        .b2{
+            color: rgb(57, 7, 151);
+            
+            padding: 10px;
+            margin: 200px;
+            border: 5px solid #ee09b5;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="box b1">hello mox model 111..</p>
+    <p class="box b2">hello mox model 222..</p>
+
+</body>
+</html>
