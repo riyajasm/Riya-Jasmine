@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variables</title>
+    <style>
+        :root{
+            --color:aqua;
+            --seccol:lightblue;
+
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .riya {
+            background-color: var(--color);
+
+        }
+        li{
+            padding: 3px;
+            margin: 2px;
+            border: 2px solid black;
+            list-style: none;
+            color: rgb(243, 9, 165);
+        }
+        ul {
+           
+            display: flex;
+        }
+
+        .jasmine {
+
+            background-color: var(--seccol);
+        }
+        ul li:first-child{
+            background-color:chartreuse;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="riya">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="jasmine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum consectetur ipsa enim
+        excepturi deserunt, corporis ipsum placeat tempora unde. Cumque enim est perferendis ipsum animi.</div>
+
+</body>
+
+</html>
