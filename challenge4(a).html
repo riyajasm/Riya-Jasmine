@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muliple colors </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --col:aqua;
+            --col2:pink;
+            --col3:rgb(252, 13, 53);
+            --col4:rgb(12, 226, 12);
+
+        }
+        ul{
+            display: flex;
+            border: 2px solid whitesmoke;
+            background-color: var(--col);
+
+            
+        }
+        body{
+            background-color: var(--col2);
+        }
+        li{
+            list-style: none;
+            margin: 3px;
+            padding: 3px;
+            color: rgb(251, 12, 52);
+
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+</body>
+</html>
