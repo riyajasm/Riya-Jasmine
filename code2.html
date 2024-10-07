@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        :root {
+            --color: rgb(134, 133, 133);
+            --seccolor: rgb(153, 126, 126);
+            --another-color: rgb(200, 168, 204);
+            --decoration-color: rgba(16, 11, 46, 0.952);
+            --main-color: rgb(59, 37, 37);
+            --defpad: 12px;
+            --defop: 0.8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            border: 1px solid var(--decoration-color);
+            background-color: var(--seccolor);
+        }
+
+        .navbar ul {
+            display: flex;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            color: var(--decoration-color);
+            padding: var(--defpad);
+        }
+
+        .navbar ul li:hover {
+            cursor: pointer;
+            background-color: var(--another-color);
+            opacity: var(--defop);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
