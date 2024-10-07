@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selecctors </title>
+    <style>
+        /* .riya::before{
+            content:" i am a css dynamic content";
+            color: rgb(5, 153, 153);
+        } */
+        /* .riya::after{
+            content:" i am a css dynamic content";
+            color: rgb(135, 18, 178);
+        } */
+        /* .riya::first-letter{
+            color: crimson;
+        } */
+        /* .riya::first-line{
+            background-color: darksalmon ;
+         } */
+        /* div :first-child{
+            background-color: aqua;
+          } */
+        /* .riya *{
+            color: purple;
+            background-color: aqua;
+
+           } */
+        /* div, [r-color="red"]{
+                background-color: aquamarine;
+            } */
+        /* .r1:nth-child(2){
+                background-color: blue;
+             } */
+        /* .r1:nth-last-child(1){
+                background-color: blue;
+              } */
+        /* .r1::first-letter {
+            color: blueviolet;
+        } */
+         /* ::selection{
+            background-color: black;
+            color: aqua;
+         } */
+          input::placeholder{
+            color: crimson;
+            background-color: aqua;
+          }
+
+    </style>
+</head>
+
+<body>
+    <div class="riya">
+        <div class="r1" r-color="red">
+            i am a div
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, saepe?
+        </div>
+        <div class="r1">hello</div>
+        <div class="r1">hello11111</div>
+    </div>
+    <input type="text" placeholder="enter name">
+    </div>
+
+</body>
+
+</html>
