@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid model 2</title>
+    <style>
+        .riya{
+           border: 2px solid black;
+           display: grid;
+          grid-template-areas: "nav nav nav"                                                                                                                                                                                                                                     
+               "side article article"
+                 "footer footer footer";
+        }
+        .r{
+            border: 2px solid red;
+            height: 55px;
+            /* width: 60px;  */
+             /* margin: 2px;  */
+        }
+        .r1{
+            grid-area: nav;
+            background-color: aqua;
+        } .r2{
+            grid-area: side;
+            background-color: rgb(89, 255, 0);
+        } .r3{
+            grid-area: article;
+            background-color: rgb(153, 18, 230);
+        } .r4{
+            grid-area: footer;
+            background-color: rgb(239, 15, 86);
+        }
+        /* } .r5{
+            grid-area: nav;
+            background-color: rgb(255, 81, 0);
+        } */
+    
+
+    </style>
+</head>
+<body>
+    <div class="riya">
+        <div class="r r1">1</div>
+        <div class=" r r2">2</div>
+        <div class=" r r3">3</div>
+        <div class=" r r4">4</div>
+        <div class=" r r5">5</div>
+       
+    </div>
+</body>
+</html>
