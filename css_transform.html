@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transforms</title>
+    <style>
+        .riya {
+            border: 2px solid palevioletred;
+            height: 80vh;
+            width: 80vw ;
+            display: flex;
+            
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+            border: 2px solid red;
+            justify-content: center;
+            align-items: center;
+            background-color: aqua;
+            /* transform: rotate(5deg); */
+            /* transform: rotatey(20deg); */
+            /* transform: scale(30deg); */
+            /* transform: skewy(20deg); */
+            transform: translate(100%) skew(40deg) translate(45%);
+            transform-origin: -50% -50%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="riya">
+        <div class="box">Box</div>
+    </div>
+</body>
+
+</html>
