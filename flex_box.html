@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flex box</title>
+    <style>
+        .riya {
+            display: flex;
+            border: 2px solid purple;
+            height: 400px;
+            background-color: aqua;
+            justify-content: center;
+            align-items: center;
+            /* flex-wrap: wrap; */
+            /* align-content: flex-start; */
+            flex-flow: row wrap;
+            /* gap:30px; */
+            /* row-gap: 0px;
+            column-gap: 0px; */
+            gap: 50px 20px;
+        }
+
+        .r {
+            height: 30px;
+            width: 50px;
+            padding: 5px;
+            border: 2px solid black;
+            margin: 5px;
+            background-color: crimson;
+            flex-grow: 0;
+            /* display: flex; */
+        }
+
+        .r1 {
+            order: 0;
+            /* flex-grow: 2; */
+            /* flex-shrink: 4; */
+            align-self: flex-end;
+        }
+
+        .r2 {
+            order: 2;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="riya">
+        <div class="r r1">1</div>
+        <div class="r">2</div>
+        <div class="r">4</div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r r2">66</div>
+
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <!-- <div class="r"></div><div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div>
+        <div class="r"></div> -->
+    </div>
+</body>
+
+</html>
