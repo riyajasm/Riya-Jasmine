@@ -1,11 +1,21 @@
 {
-  "type":"module",
-
+  "name": "node-js-concepts",
+  "version": "1.0.0",
+  "description": "making node js setup",
+  "keywords": [
+    "node",
+    "js",
+    "setup"
+  ],
+  "license": "ISC",
+  "author": "Riya Jasmine",
+  "type": "commonjs",
+  "main": "myServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "express": "^5.2.1",
     "slugify": "^1.6.6"
-    
   }
-
 }
-
-
