@@ -1,0 +1,5 @@
+mini_project
+This mini project implements a dynamic backend file organization system using Node.js and Express. *)
+It automatically detects the file type from the request URL, moves the requested file into its corresponding folder (such as JPG, PNG, or IMG), and serves it to the client.
+
+The project demonstrates real-world server-side file handling, middleware routing, and file system operations such as dynamic path resolution and automated folder-based classification
