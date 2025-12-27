@@ -1,0 +1,7 @@
+The navigation bar (navbar) is the main menu of the website that helps users move easily between different pages.
+In the RR Footware website, the navbar provides quick access to important sections such as Home, Brands, About, and Contact.
+
+It contains a dropdown menu that dynamically displays footwear brand names like Columbus, Crocss, Walkkaro, VKC, and Paragon.
+These brand names are loaded from the server using Express and EJS, making the navbar flexible and easy to update.
+
+The navbar improves user experience by giving a clear and organized way to explore products and information on the website.
