@@ -1,0 +1,333 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins", serif;
+
+}
+.box{
+    /* background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/aa9edac4-a0e6-4f12-896e-32c518daec62/web/IN-en-20241223-TRIFECTA-perspective_1502c512-be5f-4f14-b21a-e3d75fe159ab_large.jpg"); */
+    height: 92vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    position: relative;
+    background-image: url(assets/netflix.jpg)
+}
+.main .box{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 92vh;
+    width: 100vw;
+    background-blend-mode: darken;
+
+    position: absolute;
+ 
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+   
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 800px;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    
+    
+}
+.riya{
+    height: calc(95vh - 100px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    position: relative;
+   
+}
+.riya > :nth-child(1){
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-size:50px;
+    font-style: italic;
+
+}
+.riya > :nth-child(2){
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-size:50px;
+    font-style: italic;
+    
+
+}
+.riya > :nth-child(3){
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-size:17px;
+    font-style: italic;
+
+}
+.riya > :nth-child(4){
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size:15px;
+    font-style: italic;
+
+}
+
+.r{
+ background-color: red;
+    color: white;
+    
+}
+button{
+    color: white;
+    background-color: rgb(17, 16, 16);
+    padding: 5px 20px;
+    font-size: 15px
+}
+.re{
+    padding: 15px;
+    font-size: 15px;
+   
+}
+.a{
+    padding: 15px 80px 15px 10px;
+    background-color: rgb(17, 16, 16);
+    
+}
+.c{
+    padding-top: 20px;
+}
+input::placeholder{
+    color: white;
+}
+.re>:nth-child(2){
+    padding: 10px 40px 15px 25px;
+   font-size: 15px;
+    font-weight: 900;
+    background-color: red;
+   
+}
+
+.separator{
+    background-color: rgb(138, 135, 135);
+
+    height: 7px;
+    position: relative;
+    z-index: 20;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+   
+    font-size:25px;
+    font-weight:700 ;
+}
+/* .select{
+    padding: 10px;
+}*/
+select {
+    padding: 8px ;
+    background-color:rgb(17, 16, 16) ;
+    color: white;
+    font-weight: 500;
+  font-size: 15px;
+  
+  
+}
+.x{
+    /* height: 196px;
+    width: 276px; */
+    /* border: 2px solid red; */
+    padding: 0px 0px;
+    
+    /* list-style: none; */
+   
+}
+li{
+    transition: all 1s ease-in-out 1s;
+}
+.select2{
+    padding-top: 0px;
+    padding: 10px 140px;
+}
+.mid{ 
+    display: flex;
+   
+    padding: 10px 140px;
+}
+.midd{
+    padding-left: 115px;
+    overflow: auto;
+    /* overflow-x: hidden; */
+}
+.mid1{
+   align-items: center;
+   justify-content: center;
+   padding-left: 20px;
+   
+  border :2px solid black;
+  width:80vw
+  
+  
+}
+/* img:hover{
+
+    transition: transform 0.2s ease-in-out;
+    position: relative;
+    
+
+    position: absolute;
+    transform: scale(1.05);
+    z-index: 2;
+
+} */
+ 
+ /* .x > image:hover{
+    background-color: #2d2d2d;
+ } */
+.mid2{
+    display: flex;
+    gap:35px;
+    list-style: none;
+   
+
+    align-items: center;
+    justify-content: center;
+}
+.mid2:first-child{
+    padding-left: 300px;
+}
+h2{
+    color: antiquewhite;
+    margin-bottom: 0px;
+}
+.mm1{
+    padding: 50px 140px;
+    padding-bottom: 10px;
+}
+.b111{
+    display: flex;
+    gap:20px;
+    
+    height: 65vh;
+  
+   width:80vw
+}
+.b122{
+  
+  height: 64vh;
+  border-radius: 20px;
+  width: 20vw;
+  background-color: #1f1426;
+  color: white;
+}
+h3{
+    padding: 20px;
+    font-weight: 500;
+    font-size: 25px;
+}
+.i{
+    padding: 0px 30px;
+    padding-bottom: 100px;
+    color: wheat;
+    font-size: 15px;
+    
+}
+.svgi{
+    padding: 10px 150px;
+    
+}
+.ii{
+    color: wheat;
+    font-size: 15px;
+    
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+.mishu > h1{
+    padding-top: 40px;
+    
+}
+
+.box111{
+    margin: 10px;
+    height: 50px;
+    padding: 5px 5px;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2d2d2d;
+}
+h4{
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.box111:hover{
+    background-color: #7c7474;
+}
+.box111{
+
+    transition: all 0s ease-in-out 0s;
+}
+.svg111{
+    color:white;
+    font-size: 30px;
+    padding: 4px 30px;
+    padding-bottom: 20px;
+}
+.foot{
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.a{
+    padding-right: 145px;
+}
+.riyaa{
+    text-align: center;
+}
+.manha{
+    color: white;
+}
+.manha{
+    margin-top: 30px;
+    font-size: 20px;
+    padding-bottom: 40px;
+    font-weight: 300;
+    color: #979090;
+}
+.g{
+    margin-top: 30px;
+    gap:14px;
+    font-size: 15px;
+    color: #979090;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.btn11{
+    margin-top: 10px;
+}
+.btn111{
+    margin-top: 30px;
+    color: #bdb2b2;
+    padding-bottom: 50px;
+}
+   
