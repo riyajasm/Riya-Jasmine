@@ -23,6 +23,12 @@ Over time, I've loaded this repository with hands-on practice code for:
 * **Backend Basics:** Express routes, custom middleware, Node.js File System (`fs`), and EJS templating.
 
 ---
+# Netflix Homepage Clone
+A responsive static clone of the Netflix landing page built to master layout structures and styling.
+
+### Tech Stack
+- HTML5
+- CSS3 (Flexbox & Grid)
 
 ## 📌 How to Run Any Node.js Script Here
 
